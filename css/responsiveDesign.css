@@ -1,0 +1,237 @@
+@media screen and (max-width:1115px){
+    section .about{
+        width: 90%;
+    }
+}
+@media screen and (max-width:991px){
+    section .about .about-img > div{
+        transform: translate(0);
+    }
+    section .about .about-img{
+        border:0;
+    }
+    section .about{
+        width: 98%;
+    }
+    .portfolio .container-fluid .video-layer div{
+        width: 60%;
+    }
+    .home .layer nav div button.navbar-toggler{
+        border:0px !important;
+        background-color: #fff !important;
+        padding: 0 !important;
+    }
+}
+@media screen and (max-width:900px){
+    section .about .about-img{
+        margin-left: 10px !important;
+    }
+    section .about .portfolio-img{
+        width: 45%;
+    }
+    section .about .portfolio-info{
+        width: 55%;
+    }
+    section .about{
+        width: 100%;
+    }
+    .portfolio .container-fluid .row{
+        width: 100%;
+    }
+}
+@media screen and (max-width:767px){
+    section .about{
+        display:block !important;
+    }
+    section .about .portfolio-img{
+        width: 50%;
+        margin: auto;
+    }
+    section .about .about-img{
+        width: 100%;
+        height: 440px;
+    }
+    section .about .portfolio-info{
+        padding-top: 20px;
+        width: 50%;
+        margin: auto;
+        padding-left: 10px;
+    }
+    section .about .portfolio-info .about-content .about-me div{
+        display:block !important;
+    }
+    section .about .portfolio-info .about-content .about-me div>div:nth-child(2){
+        margin-top: 10px;
+    }
+
+    section.services .container-fluid .row .col-md-6 .item{
+        width: 70%;
+        margin: auto;
+    }
+    .portfolio .container-fluid .video-layer div{
+        width: 80%;
+    }
+    section.feedback .borderlayer .slider .owl-theme .container-fluid div.d-flex{
+        display: block !important;
+    }
+    section.feedback .borderlayer{
+        width: 550px;
+    }
+    section.feedback .borderlayer .slider .owl-theme .container-fluid div .img{
+        display: flex;
+        justify-content: center;
+    }
+    section.blog .container-fluid .row .col-md-4 .item{
+        width: 350px;
+        margin: 0 auto;
+    }
+    section.contact .data{
+        width: 550px;
+    }
+}
+@media screen and (max-width:650px){
+    section .about .portfolio-img{
+        width: 60%;
+    }
+
+    section .about .portfolio-info{
+        width: 60%;
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width:575px){
+    .portfolio .container-fluid .row .col-sm-6 .item{
+        width: 70%;
+        margin: auto;
+    }
+    .portfolio .container-fluid .video-layer div{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .portfolio .container-fluid .project-layer div.projectLayer{
+        width: 98%;
+    }
+    section.feedback .borderlayer{
+        width: 400px;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    section.contact .data{
+        width: 100%;
+        padding: 0 12px;
+    }
+}
+@media screen and (max-width:550px){
+    section .about .portfolio-img{
+        width: 70%;
+    }
+
+    section .about .portfolio-info{
+        width: 70%;
+    }
+    .portfolio .container-fluid .img-layer div{
+        width: 99%;
+    }
+}
+@media screen and (max-width:450px){
+    section .about .portfolio-img{
+        width: 80%;
+    }
+
+    section .about .portfolio-info{
+        width: 80%;
+    }
+    section.services .container-fluid .row .col-md-6 .item{
+        width: 100%;
+    }
+    .portfolio .container-fluid .row .col-sm-6 .item{
+        width: 85%;
+        margin: auto;
+    }
+    .portfolio .container-fluid div ul li{
+        margin: 7px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    section.feedback .borderlayer{
+        width: 98%;
+    }
+    section.feedback .borderlayer .slider .owl-theme .container-fluid div .img{
+        display: block;
+    }
+}
+@media screen and (max-width:400px){
+    section .about .portfolio-img{
+        width: 100%;
+        padding-left: 0px;
+    }
+    section .about .portfolio-img .about-img{
+        margin-left: 0 !important;
+    }
+
+    section .about .portfolio-info{
+        width: 100%;
+        padding-left: 0px;
+    }
+    section .about .portfolio-info .about-content .about-me .butns a:nth-child(1){
+        display:block !important;
+        margin-bottom:10px;
+        width: 55%;
+        margin-right: 0 !important;
+    }
+    section .about .portfolio-info .about-content .about-me .butns a:nth-child(2){
+        display:block !important;
+        margin-top:10px;
+        width: 42%;
+    }
+    section .about .portfolio-info .about-content .about-me .butns{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .portfolio .container-fluid .row .col-sm-6 .item{
+        width: 95%;
+        margin: auto;
+    }
+    .portfolio .container-fluid div ul li{
+        margin: 5px;
+        font-size: 16px;
+    }
+    .portfolio .container-fluid .img-layer div{
+        height: 300px;
+        width: 98%;
+    }
+    section.blog .container-fluid .row .col-md-4 .item{
+        width: 100%;
+    }
+    section.contact .data form .name-email{
+        display: block !important;
+    }
+    section.contact .data form .name-email input:nth-child(2){
+        margin-left: 0px !important;
+        margin-top: 16px;
+    }
+    section.contact .data form .name-email .show-message.w-50{
+        width: 100% !important;
+        margin:0px !important;
+    }
+}
+@media screen and (max-width:350px){
+    section .about .portfolio-info .about-content .about-me .butns a:nth-child(1){
+        width: 70%;
+    }
+    section .about .portfolio-info .about-content .about-me .butns a:nth-child(2){
+        width: 60%;
+    }
+    .portfolio .container-fluid .row .col-sm-6 .item{
+        width: 100%;
+    }
+    .portfolio .container-fluid .row .col-sm-6{
+        padding: 0 !important;
+    }
+    .portfolio .container-fluid div ul li{
+        margin: 2px;
+        font-size: 14px;
+    }
+}
